@@ -1,0 +1,28 @@
+.Header-Info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: flex-start;
+}
+.Header-Info-text {
+    display: inline-block;
+    
+}
+
+.image {
+    width: 500px;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.header-action{
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.second-button {
+    border: 1px solid #f3b01b;
+    color: #000;
+}
