@@ -9,3 +9,7 @@ button {
       transition: all .4s;
       cursor: pointer;
   }
+
+  button:hover {
+    transform: scale(3);
+  }
