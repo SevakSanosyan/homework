@@ -1,13 +1,17 @@
-import Header from './components/Header/Header'
+import { TodoList } from './components/TodoList'
 import './App.css'
+import { useState } from 'react'
 
 
 
 function App() {
-  
+  const [text, setText] = useState('');
+  const [todo, setTodo] = useState('');
+
+
   return (
     <div>
-    < Header />
+    <TodoList text={text} setText={setText} />
 
    </div>
   )
